@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nikhil Shirsathe - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">
+                <div class="logo-circle">N</div>
+                <span>Nikhil Shirsathe</span>
+            </a>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certificates">Certificates</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-image">
+                    <img src="portfolio image 1.jpg" alt="Nikhil Shirsathe">
+                </div>
+                <div class="hero-text">
+                    <h1>Nikhil Shirsathe</h1>
+                    <h2>AI/ML Developer | Hackathon Explorer | Tech Enthusiast</h2>
+                    <p>I'm a passionate B.Tech AIML student with expertise in Python, Machine Learning, and Web Development. I love creating innovative solutions and exploring new technologies.</p>
+                    <div class="hero-icons">
+                        <div class="icon-frame">
+                            <i class="fab fa-python"></i>
+                        </div>
+                        <div class="icon-frame">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <div class="icon-frame">
+                            <i class="fab fa-js"></i>
+                        </div>
+                        <div class="icon-frame">
+                            <i class="fas fa-database"></i>
+                        </div>
+                    </div>
+                    <div class="cta-buttons">
+                        <a href="#projects" class="btn primary">View Projects</a>
+                        <a href="#contact" class="btn secondary">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Who Am I?</h3>
+                    <p>I'm a dedicated AI/ML enthusiast with a strong foundation in programming and web development. My journey in technology is driven by curiosity and a passion for creating impactful solutions.</p>
+                    
+                    <div class="about-items">
+                        <div class="about-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <div>
+                                <h4>Education</h4>
+                                <p>B.Tech in Artificial Intelligence & Machine Learning</p>
+                                <p>MIT Academy of Engineering, Alandi</p>
+                            </div>
+                        </div>
+                        <div class="about-item">
+                            <i class="fas fa-briefcase"></i>
+                            <div>
+                                <h4>Expertise</h4>
+                                <p>Python, Machine Learning, Web Development, Data Analysis</p>
+                            </div>
+                        </div>
+                        <div class="about-item">
+                            <i class="fas fa-code"></i>
+                            <div>
+                                <h4>Tech Stack</h4>
+                                <p>Python, TensorFlow, Flask, HTML/CSS, JavaScript, SQL</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Technical Skills</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-python"></i>
+                            Python
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-code"></i>
+                            C
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-html5"></i>
+                            HTML/CSS
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-js"></i>
+                            JavaScript
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            SQL
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools & Platforms</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fas fa-code-branch"></i>
+                            VS Code
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-github"></i>
+                            GitHub
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-file-excel"></i>
+                            Excel
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-chart-bar"></i>
+                            Tableau
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Soft Skills</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">Teamwork</div>
+                        <div class="skill-item">Communication</div>
+                        <div class="skill-item">Problem-solving</div>
+                        <div class="skill-item">Creativity</div>
+                        <div class="skill-item">Leadership</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PDF Modal -->
+    <div id="pdfModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <iframe id="pdfViewer" width="100%" height="600px" frameborder="0"></iframe>
+        </div>
+    </div>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Finsight</h3>
+                    <p>AI-powered virtual Chartered Accountant that helps with tax planning, investment analysis, and compliance</p>
+                    <div class="tech-stack">
+                        <span><i class="fas fa-flask flask-icon"></i> Flask</span>
+                        <span><i class="fas fa-robot gemini-icon"></i> Gemini API</span>
+                        <span><i class="fab fa-python"></i> Python</span>
+                        <span><i class="fab fa-html5"></i> HTML/CSS</span>
+                    </div>
+                    <div class="project-links">
+                        <button class="btn primary" data-pdf="Hackathon DY patil.pdf">Overview</button>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-recycle"></i>
+                    </div>
+                    <h3>Sustainify</h3>
+                    <p>A system for handling waste at social events using a smart dashboard and event-based tracking</p>
+                    <div class="tech-stack">
+                        <span><i class="fab fa-figma"></i> Figma</span>
+                        <span><i class="fas fa-palette canva-icon"></i> Canva</span>
+                        <span><i class="fas fa-code"></i> No-Code</span>
+                    </div>
+                    <div class="project-links">
+                        <button class="btn primary" data-pdf="Round 1 Submission Presentation.pdf">Overview</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="certificates" class="certificates">
+        <div class="container">
+            <h2 class="section-title">Certificates & Courses</h2>
+            <div class="certificates-grid">
+                <div class="certificate-card" data-pdf="python certificate.pdf">
+                    <i class="fab fa-python"></i>
+                    <h3>Python Programming</h3>
+                    <p>Cisco</p>
+                    <button class="btn primary">View Certificate</button>
+                </div>
+                <div class="certificate-card" data-pdf="SQL Certificate.pdf">
+                    <i class="fas fa-database"></i>
+                    <h3>SQL Fundamentals</h3>
+                    <p>Great Learning</p>
+                    <button class="btn primary">View Certificate</button>
+                </div>
+                <div class="certificate-card" data-pdf="tableau certificate.pdf">
+                    <i class="fas fa-chart-bar"></i>
+                    <h3>Tableau</h3>
+                    <p>Great Learning</p>
+                    <button class="btn primary">View Certificate</button>
+                </div>
+                <div class="certificate-card" data-pdf="DATATHON Certificate.pdf">
+                    <i class="fas fa-laptop-code"></i>
+                    <h3>DATATHON</h3>
+                    <p>DY Patil</p>
+                    <button class="btn primary">View Certificate</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <a href="https://www.linkedin.com/in/nikhil-shirsathe-438780326" target="_blank" class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <div>
+                            <h3>LinkedIn</h3>
+                            <p><i class="fas fa-external-link-alt"></i> Connect with me</p>
+                        </div>
+                    </a>
+                    <a href="https://www.codechef.com/users/nikhil2709" target="_blank" class="contact-item">
+                        <i class="fas fa-code"></i>
+                        <div>
+                            <h3>CodeChef</h3>
+                            <p><i class="fas fa-trophy"></i> View my profile</p>
+                        </div>
+                    </a>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>nikhilshirsathe@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>+91 9075543862</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm" onsubmit="sendEmail(event)">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Your Name" required>
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Your Email" required>
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" placeholder="Your Message" required></textarea>
+                        <i class="fas fa-comment"></i>
+                    </div>
+                    <button type="submit" class="btn primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+                <p>&copy; 2024 Nikhil Shirsathe. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Certificate Modal -->
+    <div id="certificateModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <img id="certificateImage" src="" alt="Certificate">
+        </div>
+    </div>
+
+    <!-- Add EmailJS Script -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
